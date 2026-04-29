@@ -85,4 +85,27 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: pink;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    text-align: center;
+    display: block;
+    margin: 0 15px;
+  }
 }
