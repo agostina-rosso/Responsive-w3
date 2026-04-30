@@ -6,7 +6,8 @@
 
 body {
   margin-top: 100px;
-  color: rgb(239, 142, 203);
+  background: rgb(239, 142, 203);
+  color: rgb(78, 75, 75);
 }
 
 h1,
@@ -21,11 +22,14 @@ h1 {
 
 h2 {
   font-size: 48px;
+  color: rgb(138, 6, 112);
+  text-align: center;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  color: blueviolet;
 }
 
 p {
@@ -72,6 +76,31 @@ p {
   margin: 30px 0;
 }
 
+.container {
+  text-align: center;
+}
+
+.project-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
+
+p {
+  background-color: lightcyan;
+  padding: 20px;
+}
 .about-paragraphs p {
   margin: 10px;
 }
