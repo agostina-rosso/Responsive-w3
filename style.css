@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  color: rgb(239, 142, 203);
 }
 
 h1,
@@ -109,4 +110,3 @@ p {
     margin: 0 15px;
   }
 }
-
