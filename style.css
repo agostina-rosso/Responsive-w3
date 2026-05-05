@@ -54,6 +54,7 @@ p {
 
 .navigation-links a {
   margin: 20px;
+  align-items: right;
 }
 
 .primary-link {
@@ -159,6 +160,48 @@ nav li {
   color: pink;
 }
 
+footer .contact-box {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(236, 242, 242);
+}
+
+.contact-button {
+  background-color: rgb(174, 107, 237);
+  color: white;
+  text-decoration: bold;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  background: gray;
+  padding: 10px 14px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.mail-link {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.author {
+  font-size: 12px;
+  color: rgb(78, 75, 75);
+  text-align: center;
+  margin-top: 15px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -184,5 +227,11 @@ nav li {
     text-align: center;
     display: block;
     margin: 0 15px;
+  }
+
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
   }
 }
