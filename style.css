@@ -32,6 +32,15 @@ h3 {
   color: blueviolet;
 }
 
+.projects-title {
+  font-size: 52px;
+  opacity: 0.7;
+  color: blueviolet;
+  text-align: center;
+  margin: 30 0;
+  display: block;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -80,6 +89,23 @@ p {
   text-align: center;
 }
 
+.align-center {
+  text-align: center;
+  justify-content: center;
+  margin: 30 30 30 30;
+}
+
+button {
+  display: inline-block;
+  justify: center;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+}
+
 .project-btn {
   display: inline-block;
   margin: 10px;
@@ -118,6 +144,21 @@ p {
   color: pink;
 }
 
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -131,6 +172,12 @@ p {
 
   p {
     text-align: center;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-link {

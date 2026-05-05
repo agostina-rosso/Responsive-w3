@@ -19,39 +19,39 @@
     <title>About Agostina</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      id="navbar"
+    >
       <div class="container">
-        <img
-          src="images/Shecodes logo.png"
-          alt="Logo"
-          width="75"
-          height="30"
-          class="d-inline-block align-top"
-        />
+        <a href="index.html">
+        <img src="images/Shecodes logo.png" alt="Logo" width="75" height="30" class="logo d-none d-md-block" alt""/>
+        </a>
+        <a href="index.html">
+        <img src="images/sm-logo.png" alt="Logo" width="25" height="25" class="logo d-block d-md-none" alt=""/>
+        </a>
         <br />
-        <br />
-        <a class="navbar-brand" href="index.html">Agostina</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
+              <a class="nav-link" href="about.html">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+             <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="projects.html"
+                >My projects</a
+              >
             </li>
           </ul>
         </div>
@@ -86,12 +86,6 @@
           >
         </button>
       </p>
-    </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:agostina@example.com" class="email-link">
-        agostina@example.com
-      </a>
     </div>
   </body>
 </html>
